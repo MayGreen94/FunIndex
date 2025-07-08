@@ -1,2 +1,9 @@
 title: Alternative Indexes Hub
-description: A curated list of quirky and useful indexes across themes.
+description: Measuring shit you don't need with shit you didn't know you had.
+
+banner:
+  enabled: true
+  text: "Welcome to the Alternative Indexes Hub!"
+  background_color: "#ffcc00"
+  text_color: "#000000"
+  image: "/assets/images/banner.jpg"
