@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% for index in site.data.indexes %}
+  <div class="index-card">
+    <h2>{{ index.name }}</h2>
+    <p class="category">{{ index.category }}</p>
+    <p>{{ index.description }}</p>
+    <p><strong>Data Needed:</strong> {{ index.data_needed }}</p>
+    <p><strong>Data Access:</strong> {{ index.data_access }}</p>
+    {% if index.source_url %}
+      <p><a href="{{ index.source_url }}" target="_blank">Source</a></p>
+    {% endif %}
+  </div>
+{% endfor %}

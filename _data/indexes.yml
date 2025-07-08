@@ -1,0 +1,20 @@
+- name: Big Mac Index
+  category: Economics
+  description: Measures purchasing power parity by comparing Big Mac prices worldwide.
+  data_needed: Big Mac prices, exchange rates
+  data_access: Easy
+  source_url: https://www.economist.com/big-mac-index
+
+- name: Household Affordability Index
+  category: Housing
+  description: Measures housing affordability relative to median income.
+  data_needed: Median income, house prices
+  data_access: Moderate
+  source_url: https://www.oecd.org/housing
+
+- name: Commute Time Index
+  category: Urban Life
+  description: Average daily commute time in cities.
+  data_needed: Transport surveys, GPS data
+  data_access: Moderate
+  source_url: Various city reports
